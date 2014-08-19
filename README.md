@@ -7,6 +7,11 @@ See [https://mvccontrib.codeplex.com/wikipage?title=Grid&referringTitle=Document
 
 We created this because this is the only useful component we regularly use from MVC Contrib and it's not being kept up to date with the latest versions of MVC. We have had issues with the MVC5 breaking changes in using the MVCContrib library and we still want to use this functionality with MVC5.
 
+Installation
+------------
+
+    Install-Package AspNet.Mvc.Grid
+
 Changes from MVCContrib
 -----------------------
 
