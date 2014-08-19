@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using AspNet.Mvc.Grid.Example.Models;
+using FizzWare.NBuilder;
 
 namespace AspNet.Mvc.Grid.Example.Controllers
 {
@@ -10,21 +8,11 @@ namespace AspNet.Mvc.Grid.Example.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
+            var people = Builder<Person>.CreateListOfSize(20)
+                .All().With(p => p.Address = Builder<Address>.CreateNew().Build())
+                .Build();
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(people);
         }
     }
 }
