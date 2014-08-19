@@ -29,7 +29,6 @@
   <files>
     <file src="bin\Release\AspNet.Mvc.Grid.dll" target="lib\NET45" />
     <file src="bin\Release\AspNet.Mvc.Grid.pdb" target="lib\NET45" />
-    <file src="bin\Release\AspNet.Mvc.Grid.XML" target="lib\NET45" />
     <file src="**\*.cs" exclude="obj\**\*.*" target="src" />
   </files>
 </package>
