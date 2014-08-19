@@ -1,7 +1,7 @@
 using System.IO;
 using System.Web.Mvc;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Context class used when rendering the grid.

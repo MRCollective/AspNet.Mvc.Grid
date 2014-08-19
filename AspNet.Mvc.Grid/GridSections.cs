@@ -1,6 +1,4 @@
-using System;
-
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Sections for a grid.

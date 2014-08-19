@@ -1,14 +1,13 @@
 using System;
 using System.Collections.Specialized;
 using System.IO;
+using System.Security.Principal;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Rhino.Mocks;
-using HttpSessionStateBase = System.Web.HttpSessionStateBase;
-using System.Security.Principal;
 
-namespace MvcContrib.UnitTests
+namespace AspNet.Mvc.Grid.Tests
 {
 	public static class MvcMockHelpers
 	{

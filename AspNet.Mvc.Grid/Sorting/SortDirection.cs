@@ -1,4 +1,4 @@
-﻿namespace MvcContrib.Sorting
+﻿namespace AspNet.Mvc.Grid.Sorting
 {
 	public enum SortDirection
 	{

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace MvcContrib.Sorting
+namespace AspNet.Mvc.Grid.Sorting
 {
 	/// <summary>
 	/// Extension methods for sorting.

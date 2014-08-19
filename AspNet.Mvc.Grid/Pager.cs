@@ -1,13 +1,12 @@
 using System;
-using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using MvcContrib.Pagination;
+using AspNet.Mvc.Grid.Pagination;
 
-namespace MvcContrib.UI.Pager
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Renders a pager component from an IPagination datasource.

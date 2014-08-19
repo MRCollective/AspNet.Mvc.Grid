@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MvcContrib.Pagination
+namespace AspNet.Mvc.Grid.Pagination
 {
 	/// <summary>
 	/// Implementation of IPagination that wraps a pre-paged data source. 

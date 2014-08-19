@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace MvcContrib.Pagination
+namespace AspNet.Mvc.Grid.Pagination
 {
 	/// <summary>
 	/// A collection of objects that has been split into pages.

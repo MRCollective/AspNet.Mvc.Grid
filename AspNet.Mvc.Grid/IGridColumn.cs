@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using MvcContrib.Sorting;
+using AspNet.Mvc.Grid.Sorting;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Grid Column fluent interface

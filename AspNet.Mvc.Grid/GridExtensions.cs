@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Text;
-using System.Web;
 using System.Web.Mvc;
-using MvcContrib.UI.Grid.Syntax;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Extension methods related to the Grid

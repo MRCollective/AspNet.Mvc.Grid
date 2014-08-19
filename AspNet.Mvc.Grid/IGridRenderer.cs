@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Web.Mvc;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
     /// <summary>
     /// A renderer responsible for rendering a grid.

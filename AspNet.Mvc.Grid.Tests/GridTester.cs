@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web.Mvc;
-using MvcContrib.UI.Grid;
 using NUnit.Framework;
 using Rhino.Mocks;
-using MvcContrib.UI.Grid.ActionSyntax;
-namespace MvcContrib.UnitTests.UI.Grid
+
+namespace AspNet.Mvc.Grid.Tests
 {
 	[TestFixture]
 	public class GridTester

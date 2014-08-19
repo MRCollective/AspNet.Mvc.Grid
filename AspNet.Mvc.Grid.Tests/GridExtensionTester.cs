@@ -4,9 +4,8 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using NUnit.Framework;
 using Rhino.Mocks;
-using MvcContrib.UI.Grid;
 
-namespace MvcContrib.UnitTests.UI.Grid
+namespace AspNet.Mvc.Grid.Tests
 {
 	[TestFixture]
 	public class GridExtensionTester

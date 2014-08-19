@@ -1,6 +1,6 @@
-using MvcContrib.Sorting;
+using AspNet.Mvc.Grid.Sorting;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Sorting information for use with the grid.

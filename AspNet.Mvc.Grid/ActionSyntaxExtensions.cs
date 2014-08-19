@@ -1,7 +1,6 @@
 using System;
-using MvcContrib.UI.Grid.Syntax;
 
-namespace MvcContrib.UI.Grid.ActionSyntax
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Extension methods for the Grid that enable the alternative 'Action' syntax for rendering custom sections.

@@ -1,4 +1,4 @@
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Used as viewdata for partials rendered for RowStart/RowEnd

@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace MvcContrib.UnitTests
+namespace AspNet.Mvc.Grid.Tests
 {
 	public static class AssertionExtensions
 	{

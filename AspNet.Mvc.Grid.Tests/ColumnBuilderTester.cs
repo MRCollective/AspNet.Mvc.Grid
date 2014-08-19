@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using MvcContrib.UI.Grid;
 using NUnit.Framework;
 
-namespace MvcContrib.UnitTests.UI.Grid
+namespace AspNet.Mvc.Grid.Tests
 {
 	[TestFixture]
 	public class ColumnBuilderTester

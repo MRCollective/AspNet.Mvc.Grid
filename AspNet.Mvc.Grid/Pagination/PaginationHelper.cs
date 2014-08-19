@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MvcContrib.Pagination
+namespace AspNet.Mvc.Grid.Pagination
 {
 	/// <summary>
 	/// Extension methods for creating paged lists.

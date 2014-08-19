@@ -1,8 +1,6 @@
 using System.Collections.Generic;
-using MvcContrib.Sorting;
-using MvcContrib.UI.Grid.Syntax;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Defines a grid model

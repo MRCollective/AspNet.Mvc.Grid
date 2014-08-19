@@ -2,9 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Web;
-using MvcContrib.Sorting;
 
-namespace MvcContrib.UI.Grid.Syntax
+namespace AspNet.Mvc.Grid
 {
 	public interface IGrid<T> : IGridWithOptions<T> where T: class 
 	{

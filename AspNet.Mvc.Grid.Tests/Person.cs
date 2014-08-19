@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcContrib.UnitTests.UI.Grid
+namespace AspNet.Mvc.Grid.Tests
 {
 	public class Person
 	{

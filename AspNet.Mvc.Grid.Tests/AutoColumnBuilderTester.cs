@@ -1,15 +1,11 @@
 using System;
-using System.ComponentModel;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.IO;
 using System.Linq;
 using System.Web.Mvc;
-using MvcContrib.UI.Grid;
-using MvcContrib.UI.Grid.Syntax;
 using NUnit.Framework;
-using System.Collections.Generic;
 
-namespace MvcContrib.UnitTests.UI.Grid
+namespace AspNet.Mvc.Grid.Tests
 {
 	[TestFixture]
 	public class AutoColumnBuilderTester

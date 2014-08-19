@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
-namespace MvcContrib
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Untyped, case insensitive dictionary that can be initialised using lambdas.

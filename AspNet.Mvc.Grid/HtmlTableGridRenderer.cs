@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using MvcContrib.Sorting;
+using AspNet.Mvc.Grid.Sorting;
 
-namespace MvcContrib.UI.Grid
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Renders a grid as an HTML table.

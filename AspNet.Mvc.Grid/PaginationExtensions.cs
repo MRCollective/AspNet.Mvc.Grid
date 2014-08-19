@@ -1,8 +1,8 @@
 using System;
 using System.Web.Mvc;
-using MvcContrib.Pagination;
+using AspNet.Mvc.Grid.Pagination;
 
-namespace MvcContrib.UI.Pager
+namespace AspNet.Mvc.Grid
 {
 	/// <summary>
 	/// Extension methods for the pager.

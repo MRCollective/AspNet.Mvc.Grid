@@ -6,13 +6,11 @@ using System.Linq.Expressions;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using MvcContrib.Sorting;
-using MvcContrib.UI.Grid;
-using MvcContrib.UI.Grid.ActionSyntax;
+using AspNet.Mvc.Grid.Sorting;
 using NUnit.Framework;
 using Rhino.Mocks;
 
-namespace MvcContrib.UnitTests.UI.Grid
+namespace AspNet.Mvc.Grid.Tests
 {
 	[TestFixture]
 	public class GridRendererTester

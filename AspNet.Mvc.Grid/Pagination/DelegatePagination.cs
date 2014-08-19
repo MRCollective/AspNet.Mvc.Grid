@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MvcContrib.Pagination
+namespace AspNet.Mvc.Grid.Pagination
 {
 	/// <summary>
 	/// Event arguments passed to the Delegate

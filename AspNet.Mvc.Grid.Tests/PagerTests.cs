@@ -2,16 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
-using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using MvcContrib.Pagination;
-using MvcContrib.UI.Pager;
+using AspNet.Mvc.Grid.Pagination;
 using NUnit.Framework;
 using Rhino.Mocks;
 
-namespace MvcContrib.UnitTests.UI.Pager
+namespace AspNet.Mvc.Grid.Tests
 {
 	[TestFixture]
 	public class PagerTests
@@ -181,7 +179,7 @@ namespace MvcContrib.UnitTests.UI.Pager
 			RenderPager(1, 2).QueryParam("foo").ToString().ShouldEqual(expected);
 		}
 
-		private MvcContrib.UI.Pager.Pager RenderPager(int pageNumber, int pageSize)
+		private Pager RenderPager(int pageNumber, int pageSize)
 		{
 			var viewContext = MockRepository.GenerateStub<ViewContext>();
 			viewContext.Writer = new StringWriter();
@@ -200,7 +198,7 @@ namespace MvcContrib.UnitTests.UI.Pager
 				.Repeat.Any();
 
 			//var ctx = new ViewContext(new ControllerContext(_context, new RouteData(), MockRepository.GenerateStub<Controller>()), MockRepository.GenerateStub<IView>(), new ViewDataDictionary(), new TempDataDictionary(), new StringWriter());
-			return new MvcContrib.UI.Pager.Pager(_datasource.AsPagination(pageNumber, pageSize), viewContext);
+			return new Pager(_datasource.AsPagination(pageNumber, pageSize), viewContext);
 		}
 	}
 
