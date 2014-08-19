@@ -10,7 +10,7 @@
 
 @Html.Grid(Model).Columns(cb =>
 {
-    cb.For(p => @Html.ActionLink(p.Name, "Person", "Home", new {p.Id}, null)).Named("Name with link");
+    cb.For(p => Html.ActionLink(p.Name, "Person", "Home", new {p.Id}, null)).Named("Name with link");
     cb.For(p => p.NameWithAttribute);
     cb.For(p => p.DateOfBirth);
     cb.For(p => p.DateWithAttribute);
