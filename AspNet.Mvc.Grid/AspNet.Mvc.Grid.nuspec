@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='UTF-8'?> 
+<package>
+  <metadata>
+    <id>
+       AspNet.Mvc.Grid
+    </id>
+    <version>
+       1.0.0
+    </version>
+    <authors>
+      Outercurve Foundation, MR Collective
+    </authors>
+    <description>
+      The Grid control from mvccontrib.codeplex.com updated for ASP.NET MVC5 / .NET 4.5 and without dependencies.
+    </description>
+    <projectUrl>
+      https://github.com/MRCollective/AspNet.Mvc.Grid
+    </projectUrl>
+    <licenseUrl>
+      https://github.com/MRCollective/AspNet.Mvc.Grid/blob/master/LICENSE
+    </licenseUrl>
+    <tags>
+       mvc grid pagination pager
+    </tags>
+    <language>
+       en-US 
+    </language>
+  </metadata>
+  <files>
+    <file src="bin\Release\AspNet.Mvc.Grid.dll" target="lib\NET45" />
+    <file src="bin\Release\AspNet.Mvc.Grid.pdb" target="lib\NET45" />
+    <file src="bin\Release\AspNet.Mvc.Grid.XML" target="lib\NET45" />
+    <file src="**\*.cs" exclude="obj\**\*.*" target="src" />
+  </files>
+</package>

@@ -99,6 +99,7 @@
     <Compile Include="Syntax.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AspNet.Mvc.Grid.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
