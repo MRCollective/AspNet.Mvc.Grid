@@ -1,6 +1,10 @@
 AspNet.Mvc.Grid
 ===============
 
+[![Build status](https://ci.appveyor.com/api/projects/status/y0p8apolcrgf1jmb?svg=true)](https://ci.appveyor.com/project/MRCollective/aspnet-mvc-grid)
+[![NuGet downloads](https://img.shields.io/nuget/dt/AspNet.Mvc.Grid.svg)](https://www.nuget.org/packages/AspNet.Mvc.Grid) 
+[![NuGet version](https://img.shields.io/nuget/vpre/AspNet.Mvc.Grid.svg)](https://www.nuget.org/packages/AspNet.Mvc.Grid)
+
 The Grid control from [mvccontrib.codeplex.com](https://mvccontrib.codeplex.com) updated for ASP.NET MVC5 / .NET 4.5 and without dependencies (e.g. Mvc4Futures).
 
 See [the documentation](https://mvccontrib.codeplex.com/wikipage?title=Grid&referringTitle=Documentation).
